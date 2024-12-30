@@ -11,9 +11,11 @@ Many students find it hard to stay organized, motivated, and on track, and our v
 ---
 
 ## 🛠 **Tech Stack**  
-- **Python**  
-- **Flask**  
-- **SQLite**  
+- **Python**
+- **DialogFlow** 
+- **FastAPI**  
+- **SQLite**
+-  **HTML, CSS & Javascript**
 
 ---
 
