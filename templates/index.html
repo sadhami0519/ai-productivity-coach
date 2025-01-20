@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Productivity Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be inserted here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Type your message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+        
+        <div class="features-container">
+            <div class="pomodoro-timer">
+                <h3>Pomodoro Timer</h3>
+                <div id="timer">25:00</div>
+                <button onclick="startPomodoro()">Start</button>
+                <button onclick="pausePomodoro()">Pause</button>
+            </div>
+            
+            <div class="task-tracker">
+                <h3>Tasks</h3>
+                <div id="tasks-list">
+                    <!-- Tasks will be inserted here -->
+                </div>
+                <button onclick="addTask()">Add Task</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
